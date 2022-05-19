@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import * as C from './App.styles'
 import { Character } from './components/Character';
+
 import { useCharacter } from './hooks/useCharacter';
 
 
@@ -35,6 +36,10 @@ const App = () => {
         break;
     }
   }
+
+  
+
+    
 
   return(
     <C.Container>
